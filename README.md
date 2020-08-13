@@ -2,7 +2,9 @@
 
 ## Intention
 
-This program intends to remove strings containing 'oggy' from a list of strings. The word oggy needs to be removed from the list of multiple words
+This program intends to remove strings containing 'oggy' from a list of strings. 
+
+Remove the word oggy from the list of multiple words
 
 ## Method
 
