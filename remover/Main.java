@@ -4,7 +4,18 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
-    public static void removeOggy(ArrayList<String> names) {
+    public static void removeOggy(ArrayList<String> names) 
+    {
+        String removestr = "oggy";
+        
+        for(int itr=names.size()-1; itr>=0; itr--)
+			{
+			   if(names.get(itr).contains(substr))
+			   {
+			       names.remove(itr);
+			   }
+			   else
+                		System.out.println(names.get(itr));
         return;
     }
     public static boolean oggyIsRemoved(ArrayList<String> names) {
