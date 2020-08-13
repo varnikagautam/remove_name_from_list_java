@@ -6,13 +6,13 @@ import java.util.stream.Collectors;
 public class Main {
     public static void removeOggy(ArrayList<String> names) {
         
-         String subString = "oggy";
-			for(int i=names.size()-1; i>=0; i--)
+         String substr1 = "oggy";
+			for(int itr=names.size()-1; itr>=0; itr--)
 			{
-			   if(names.get(i).contains(subString))
+			   if(names.get(itr).contains(substr1))
 			   {
-			       System.out.println(names.get(i));
-			       names.remove(i);
+			       System.out.println(names.get(itr));
+			       names.remove(itr);
 			   }
 			}
         return;
